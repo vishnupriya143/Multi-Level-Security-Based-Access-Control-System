@@ -25,7 +25,6 @@ int main()
 	motot_init();
 
 	lcd_string("Multilevel sercutity based access control system");
-	//lcd_scroll("Multilevel sercutity based access control system");
 	delay_ms(500);
 	lcd_com(0x01);
 	init_i2c();
